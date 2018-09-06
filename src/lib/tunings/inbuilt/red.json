@@ -1,0 +1,26 @@
+{
+    "E": {
+        "name": "Standard",
+        "layout": ["E", "A", "D", "G", "B", "E"]
+    },
+    "A": {
+        "name": "DADGAD",
+        "layout": ["D", "A", "D", "G", "A", "D"]
+    },
+    "D": {
+        "name": "Whole Step",
+        "layout": ["D", "G", "C", "F", "A", "D"]
+    },
+    "G": {
+        "name": "Drop D",
+        "layout": ["D", "A", "D", "G", "B", "E"]
+    },
+    "B": {
+        "name": "E Flat",
+        "layout": ["Eb", "Ab", "Db", "Gb", "Bb", "Eb"]
+    },
+    "e": {
+        "name": "Double Drop D",
+        "layout": ["D", "A", "D", "G", "B", "D"]
+    }
+}

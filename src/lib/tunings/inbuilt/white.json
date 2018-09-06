@@ -1,0 +1,26 @@
+{
+    "E": {
+        "name": "C Tuning",
+        "layout": ["C", "F", "A#", "D#", "G", "C"]
+    },
+    "A": {
+        "name": "Low C",
+        "layout": ["C", "G", "D", "G", "A", "D"]
+    },
+    "D": {
+        "name": "C Sharp (#)",
+        "layout": ["C#", "F#", "B", "E", "G#", "C#"]
+    },
+    "G": {
+        "name": "B Tuning",
+        "layout": ["B", "E", "A", "D", "F#", "B"]
+    },
+    "B": {
+        "name": "Dropped C",
+        "layout": ["C", "G", "C", "F", "A", "D"]
+    },
+    "e": {
+        "name": "Dropped B",
+        "layout": ["B", "F#", "B", "E", "G#", "C#"]
+    }
+}

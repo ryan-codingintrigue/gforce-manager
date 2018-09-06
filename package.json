@@ -1,0 +1,48 @@
+{
+  "name": "gforce-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server/bundle",
+  "scripts": {
+    "dev": "env-cmd default,dev concurrently -r -k \"webpack --watch\" \"nodemon -w dist/server/\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.0.0",
+    "@types/helmet": "0.0.40",
+    "@types/mini-css-extract-plugin": "^0.2.0",
+    "@types/node": "^10.9.4",
+    "@types/webpack": "^4.4.11",
+    "@types/webpack-env": "^1.13.6",
+    "@types/webpackbar": "^2.6.0",
+    "babel-loader": "^8.0.2",
+    "concurrently": "^4.0.1",
+    "env-cmd": "^8.0.2",
+    "file-loader": "^2.0.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "nodemon": "^1.18.4",
+    "serviceworker-webpack-plugin": "^1.0.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-pwa-manifest": "^3.7.1",
+    "webpackbar": "^2.6.3"
+  },
+  "dependencies": {
+    "dexie": "^2.0.4",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "E": {
+        "name": "Open E",
+        "layout": ["E", "B", "E", "G#", "B", "E"]
+    },
+    "A": {
+        "name": "Open A",
+        "layout": ["E", "A", "E", "A", "C#", "E"]
+    },
+    "D": {
+        "name": "Open D",
+        "layout": ["D", "A", "D", "F#", "A", "D"]
+    },
+    "G": {
+        "name": "Open G",
+        "layout": ["D", "G", "D", "G", "B", "D"]
+    },
+    "B": {
+        "name": "Dobro",
+        "layout": ["G", "B", "D", "G", "B", "D"]
+    },
+    "e": {
+        "name": "All Fourths (4ths)",
+        "layout": ["E", "A", "D", "G", "C", "F"]
+    }
+}
