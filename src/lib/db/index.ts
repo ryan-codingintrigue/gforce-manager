@@ -6,19 +6,18 @@ export enum ColorBank {
     Magenta = "magenta"
 }
 
-// By defining the interface of table records,
-// you get better type safety and code completion
 export interface ITuning {
-    id?: number; // Primary key. Optional (autoincremented)
-    name: string; // First name
-    colorBank: ColorBank; // Last name
+    id?: number;
+    name: string;
+    colorBank: ColorBank;
+    layout: string[];
 }
 
 export interface ISongs {
     id?: number;
-    contactId: number; // "Foreign key" to an IContact
-    type: string; // Type of email such as "work", "home" etc...
-    email: string; // The email address
+    tuningId: number;
+    artist: string;
+    title: string;
 }
 
 class TuningsDatabase extends Dexie {
